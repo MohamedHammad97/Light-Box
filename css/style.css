@@ -1,0 +1,33 @@
+.image-caption {
+    bottom: 10px;
+    width: 80%;
+    left: 10%;
+}
+
+#lightBoxContainer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#lightBox {
+    background-image: url(../images/1.jpg);
+    width: 50%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+#prevBtn , #closeBtn , #nextBtn {
+    cursor: pointer;
+}
+
+@media (0px <=width <=700px) {
+
+    #lightBox {
+        width: 100%;
+    }
+
+    #prevBtn,#nextBtn {
+        display: none;
+    }
+
+}
